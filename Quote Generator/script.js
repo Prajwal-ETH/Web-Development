@@ -1,6 +1,6 @@
 const quote = document.getElementById("quote");
 const author = document.getElementById("author");
-const url = "https://api.quotable.io/random";
+const url = "http://api.quotable.io/random";
 
 async function getquote(url){
     const response = await fetch(url);
@@ -15,7 +15,4 @@ function tweet(){
     " - " + author.innerHTML, "Tweet Window", "width=600, height=300");
 }
 
-
-exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);
-exports.build = series(scssTask, jsTask);
 

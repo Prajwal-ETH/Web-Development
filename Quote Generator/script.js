@@ -15,3 +15,7 @@ function tweet(){
     " - " + author.innerHTML, "Tweet Window", "width=600, height=300");
 }
 
+
+exports.default = series(scssTask, jsTask, browserSyncServe, watchTask);
+exports.build = series(scssTask, jsTask);
+

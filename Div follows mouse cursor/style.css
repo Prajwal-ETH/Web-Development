@@ -1,0 +1,17 @@
+body {
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #8fc7f1, #7173f5);
+    overflow: hidden;
+  }
+  #my-div {
+    width: 6em;
+    height: 6em;
+    background-color: #ffffff;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgba(16, 0, 54, 0.2);
+    transition: 0.1s ease-out;
+  }

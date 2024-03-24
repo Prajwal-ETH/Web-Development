@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Rubik",sans-serif;
 }
+
 body{
     height: 100%;
     background: linear-gradient(
@@ -12,6 +13,7 @@ body{
         #f6f6f6 50%
     ) fixed;
 }
+
 .container{
     width: 90vmin;
     background-color: #ffffff;
@@ -23,16 +25,19 @@ body{
     border-radius: 5px;
     box-shadow: 0 20px 35px rgba(60,60,60,0.2);
 }
+
 .wrapper{
     display: flex;
     justify-content: space-between;
 }
+
 .wrapper input{
     width: 60%;
     padding: 10px 5px;
     border-radius: 3px;
     border: 1px solid #201d2e;
 }
+
 .wrapper button{
     width: 30%;
     background-color: #201d2e;
@@ -42,11 +47,13 @@ body{
     color: #ffffff;
     border-radius: 3px;
 }
+
 .container p{
     line-height: 35px;
     text-align: justify;
     margin-top: 30px;
 }
+
 mark{
     background-color: #ffdd4b;
 }

@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+body{
   font-family: 'Muli', sans-serif;
   display: flex;
   align-items: center;
@@ -14,12 +14,12 @@ body {
   margin: 0;
 }
 
-.container {
+.container{
   display: flex;
   width: 90vw;
 }
 
-.panel {
+.panel{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -42,11 +42,11 @@ body {
   opacity: 0;
 }
 
-.panel.active {
+.panel.active{
   flex: 5;
 }
 
-.panel.active h3 {
+.panel.active h3{
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
 }

@@ -29,6 +29,7 @@
     color: #fff;
     background: transparent;
 }
+
 button{
     background: transparent;
     border: 0;
@@ -40,10 +41,12 @@ button{
     transform: translateY(-50%);
     right: 15px;
 }
+
 button img{
     width: 35px;
 
 }
+
 #message{
     position: absolute;
     bottom: -30px;

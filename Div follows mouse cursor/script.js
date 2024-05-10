@@ -21,6 +21,7 @@ const move = (e) => {
   myDiv.style.left = x - 50 + "px";
   myDiv.style.top = y - 50 + "px";
 };
+
 //For mouse
 document.addEventListener("mousemove", (e) => {
   move(e);

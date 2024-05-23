@@ -85,6 +85,7 @@ html,body{
     font-weight: 500;
 
 }
+
 .bubble:hover{
     background-color: rgb(1, 17, 17);
     cursor: pointer;

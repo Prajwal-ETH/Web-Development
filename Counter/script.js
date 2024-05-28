@@ -10,7 +10,6 @@ decrementBtn.addEventListener('click', () => {
     count.innerText = countVal - changeByValue
 })
 
-
 incrementBtn.addEventListener('click', () => {
     const countVal = parseInt(count.innerText)
     const changeByValue = parseInt(changeBy.value)

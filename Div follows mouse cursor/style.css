@@ -5,7 +5,6 @@ body {
     background: linear-gradient(135deg, #8fc7f1, #7173f5);
     overflow: hidden;
   }
-
   #my-div {
     width: 6em;
     height: 6em;
